@@ -94,6 +94,19 @@ exports.save_edit = function(req,res){
             phone   : input.phone 
         
         };
+		console.log("\n");
+		console.log("\n");
+		console.log("AFTER MODIFICATION");
+        console.log(data.name);
+		console.log("\n");
+		console.log(data.address);
+		console.log("\n");
+		console.log(data.email);
+		console.log("\n");
+		console.log(data.phone);
+		console.log("\n");
+		console.log("\n");
+		
         
         connection.query("UPDATE customer set ? WHERE id = ? ",[data,id], function(err, rows)
         {

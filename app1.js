@@ -8,24 +8,12 @@ var routes = require('./routes');
 var http = require('http');
 var path = require('path');
 
-
-
-var get_ip = require('ipware')().get_ip; 
-
 //load customers route
 var customers = require('./routes/customers'); 
 var app = express();
 
 var connection  = require('express-myconnection'); 
 var mysql = require('mysql');
-
-
-app.use(function(req, res, next) {
-	var ip_info = get_ip(req);
-	console.log(ip_info); 
-// { clientIp: '127.0.0.1', clientIpRoutable: false } 
-next(); 
-});
 
 // all environments
 app.set('port', process.env.PORT || 4300);
