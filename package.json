@@ -6,7 +6,7 @@
     "start": "node app.js"
   },
    "description":"Building a node.js web application to perform crud operations using mysql as a database"
-  "author": {
+  "author" {
     "name":"praveen kumar gogula",
     "email":"pgogula@miraclesoft.com"
 },
