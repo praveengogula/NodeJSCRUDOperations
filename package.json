@@ -5,6 +5,11 @@
   "scripts": {
     "start": "node app.js"
   },
+   "description":"Building a node.js web application to perform crud operations using mysql as a database"
+  "author": {
+    "name":"praveen kumar gogula",
+    "email":"pgogula@miraclesoft.com"
+},
   "dependencies": {
     "ejs": "^1.0.0",
     "express": "3.5.1",
