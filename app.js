@@ -58,11 +58,11 @@ app.use(
     
     connection(mysql,{
         
-        host: 'localhost',
-        user: 'root',
-        password : 'root',
+        host: 'us-cdbr-azure-west-c.cloudapp.net',
+        user: 'bc4485360440df',
+        password : 'cc0b41d5',
         port : 3306, //port mysql
-        database:'nodejs'
+        database:'Test4023MySqlDB'
 
     },'pool') //or single
 
